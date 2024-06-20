@@ -1,0 +1,21 @@
+{
+  "name": "bitside-challenge",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "npx jest --coverage",
+    "start": "npx ts-node src/index.ts",
+    "format": "npx prettier --ignore-path .gitignore --parser typescript --write './**/*.ts'"
+  },
+  "author": "Marius Korte",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.2",
+    "@types/jest": "^29.5.12"
+  }
+}
